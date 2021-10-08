@@ -1,0 +1,48 @@
+.chinese_title{
+	color: red;
+	font-size: 50px;
+}
+
+/*.like{ 
+	font-family: "Source Sans Pro";
+	font-size:1.2em;  
+	color:#ccc; 
+	cursor:pointer;
+	border-style: solid;
+	border-width: 0.001em;
+	border-radius: 5px;
+	border-color: white;
+	padding: 7px 60px 7px 60px;
+
+}*/
+.cs{
+	color:#ff5a39 !important;
+	/*border-color: red !important;*/
+}
+
+#建设1{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+	padding: 0px 0px 0px 0px;
+	width: auto;
+	height: auto;
+	max-width: 1000%;
+	max-height: 1000%;
+}
+
+.three_img{
+	width: auto;
+	height: 200px;
+	border-style: solid;
+	border-width: 1px;
+	/*border-radius: 5px;*/
+	border-color: grey;
+}
+
+/*.image_box_3{
+	width: 100px;
+	height: 100px;
+}
+*/

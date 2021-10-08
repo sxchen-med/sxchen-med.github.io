@@ -1,286 +1,431 @@
 <!DOCTYPE HTML>
 <!--
-	Directive by HTML5 UP
-	html5up.net | @n33co
+	Story by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Directive by HTML5 UP</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-			<link rel="stylesheet" href="css/selfedit.css" />
-		</noscript>
-		<link href='images/头像.jpg' rel='shortcut icon' type='image/x-icon'>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/selfedit.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<script type="text/javascript">
+			function display_alertmail(){
+  				alert("1442463910@qq.com")
+ 			}
+		</script>
+
+		<script typet="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+			$(function () {            
+				$(".like").click(function () {
+					$(this).toggleClass('cs');                
+				})
+			})
+
+		</script>
+
 	</head>
-	<body>
+	<body class="is-preload">
 
-		<!-- Header -->
-			<div id="header">
-				<span class="logo icon fa-paper-plane-o"></span>
-				<h1>你好，这是陈思行的探索</h1>
-				<p>Hi, this is Sixing Chen's exploration.
-				</p>
-			</div>
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
-		<!-- Main -->
-			<div id="main">
-
-				<header class="major container 75%">
-					<h2>
-						接触新鲜事物</br>
-						尝试一直想做的事情</br>
-						Be exposed to new things</br>
-						Try what I long to do for long</br>
-					</h2>
-					<!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
-				</header>
-
-				<div class="box alt container">
-					<section class="feature left">
-						<!-- <a href="#" class="image icon fa-signal"><img src="images/pic01.jpg" alt="" /></a> -->
-						<img src="images/龙猫.jpg" alt="" width=400 height=300/>
-						<div id="word_relative" class="content">
-							<h3>The First Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="#" class="image icon fa-code"><img src="images/pic02.jpg" alt="" /></a>
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
-							<h3>The Second Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h1>探索</h1>
+							<h2>EXPLORE</h2>
+							<p class="major">
+								敢于涉险滩</br>
+								敢于啃硬骨头</br>
+								Be bold in taking risks</br>
+							    Be bold in responding to challenge</br>
+							</p>
+							<ul class="actions stacked">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/龙猫.jpg" alt="" />
 						</div>
 					</section>
-					<section class="feature left">
-						<a href="#" class="image icon fa-mobile"><img src="images/pic03.jpg" alt="" /></a>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
-							<h3>The Third Thing</h3>
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+							<h2>电影 MOVIE</h2>
+							<!-- <h3>MOVIE</h3> -->
+							<p class="major">
+								去看看经典电影，也追追热门电影</br>
+								各种类型都去尝试一下</br>
+								Go to see classic movies and catch up with popular movies </br>
+							    Try all types</br>
+							</p>
+							<ul class="actions stacked">
+								<!-- <li><a href="#" class="button">Learn More</a></li> -->
+								<li><p class="button like">LIKE &#10084;</p></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/楚门的世界.jpg" alt="" />
 						</div>
 					</section>
-				</div>
 
-				<!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ul>
-					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>狼人杀 WEREWOLVES</h2>
+							<!-- <h3>WEREWOLVES</h3> -->
+							<p class="major">
+								感受思维的碰撞，享受交流的快乐</br>
+								Enjoy thinking and chatting
+							</p> 
+							<ul class="actions stacked">
+								<!-- <li><a href="#" class="button">Learn More</a></li> -->
+								<li><p class="button like">LIKE &#10084;</p></li>
+							</ul>
+						</div>
+						<div id="tupian" class="image">
+							<img src="images/狼人杀.jpg" alt=""  style="margin: 0px 0px 0px 0px" />
 						</div>
 					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
-							<div class="row">
-								<div class="6u 12u(mobilep)">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
-								</div>
-								<div class="6u 12u(mobilep)">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<!-- <h2>诗歌</h2>
+							<h3>poem</h3>
+							<p class="major">
+								阅读中国现代诗歌</br>
+								感受美的语言</br>
+								Read modern Chinese poetry</br>
+							    Feel the beauty of language</br>
+							</p>  -->
+							<h2>诗歌 POEM</h2>
+							<h4>阅读中国现代诗歌,感受美的语言</br>
+								Read  modern  Chinese  poetry  , to  feel  the  beauty  of  language</br>
+							</h4>
+							<ul class="actions stacked">
+								<!-- <li><a href="#" class="button">Learn More</a></li> -->
+								<li><p class="button like">LIKE &#10084;</p></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/顾城诗2.jpg" alt=""  />
+						</div>
 					</section>
-				</div>
-				-->
 
-				<footer class="major container 75%">
-					<h3>Get shady with science</h3>
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-					<ul class="actions">
-						<li><a href="#" class="button">Join our crew</a></li>
-					</ul>
-				</footer>
+				<!-- Five -->
+				<!-- 	<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Massa sed condimentum</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+						</div> -->
 
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-				<div class="container 75%">
-
-					<header class="major last">
-						<h2>Questions or comments?</h2>
-					</header>
-
-					<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor
-					orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus.</p>
-
-					<form method="post" action="#">
-						<div class="row">
-							<div class="6u 12u(mobilep)">
-								<input type="text" name="name" placeholder="Name" />
+						<!-- Gallery -->
+							<!-- <div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="images/gallery/fulls/01.jpg" class="image">
+										<img src="images/gallery/thumbs/01.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/02.jpg" class="image">
+										<img src="images/gallery/thumbs/02.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Feugiat Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/03.jpg" class="image">
+										<img src="images/gallery/thumbs/03.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Amet</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/04.jpg" class="image">
+										<img src="images/gallery/thumbs/04.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Tempus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/05.jpg" class="image">
+										<img src="images/gallery/thumbs/05.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ultrices Magna</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/06.jpg" class="image">
+										<img src="images/gallery/thumbs/06.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Tempus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/07.jpg" class="image">
+										<img src="images/gallery/thumbs/07.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/08.jpg" class="image">
+										<img src="images/gallery/thumbs/08.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Risus</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/09.jpg" class="image">
+										<img src="images/gallery/thumbs/09.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Tempus Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/10.jpg" class="image">
+										<img src="images/gallery/thumbs/10.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sed Etiam</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/11.jpg" class="image">
+										<img src="images/gallery/thumbs/11.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Magna Lorem</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/gallery/fulls/12.jpg" class="image">
+										<img src="images/gallery/thumbs/12.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Ipsum Dolor</h3>
+										<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
 							</div>
-							<div class="6u 12u(mobilep)">
-								<input type="email" name="email" placeholder="Email" />
+
+					</section> -->
+
+				<!-- Six -->
+					<!-- <section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Ipsum sed consequat</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-gem"></span>
+									<h3>Lorem</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Ipsum</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-chart-bar"></span>
+									<h3>Dolor</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-wifi"></span>
+									<h3>Amet</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<h3>Magna</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-paper-plane"></span>
+									<h3>Tempus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-desktop"></span>
+									<h3>Aliquam</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<h3>Elit</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-hashtag"></span>
+									<h3>Morbi</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-bolt"></span>
+									<h3>Turpis</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-envelope"></span>
+									<h3>Ultrices</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-leaf"></span>
+									<h3>Risus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
 							</div>
 						</div>
-						<div class="row">
-							<div class="12u">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+					</section> -->
+
+				<!-- Seven -->
+
+					<section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<!-- <ul>
+								<li> -->
+									<a name="123"> </a>
+									<span>
+									<a href="https://sxchen-med.github.io">
+	    							<button>返回Return</button>
+									</a>
+								</span>
+								<!-- </li>
+								<li> -->
+									<span>
+									<a href="https://sxchen-med.github.io">
+	    							<button>挑战Challenge</button>
+									</a>
+									</span>
+
+									<span>
+									<a href="https://sxchen-med.github.io">
+	    							<button>学工Student Affairs</button>
+									</a>
+									</span>
+								<!-- </li>
+						</ul> -->
+							<!-- <h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" value="" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" value="" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
 								</ul>
-							</div>
+							</form> -->
+
 						</div>
-					</form>
+					</section>
 
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					</ul>
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<!-- <li><a href="#123" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
+								<!-- <li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li> -->
+								<input type="button" onclick="display_alertmail()" value="Mail Contact" />
+		
+							<p>&copy; 2021Sixing Chen &ensp; &ensp; Design:&ensp; <a href="https://html5up.net">HTML5 UP</a>&ensp;  
+								<a href="https://sxchen-med.github.io/">  Sixing Chen</a>.</p> 
+							
 
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+						</div>
+					</footer>
 
-				</div>
 			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
